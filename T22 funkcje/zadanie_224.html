@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>zadanie T223</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+  <header>
+    <h1>Napisz funkcję, która będzie przyjmowała dwa argumenty liczbowe i będzie wypisywała mniejszą z nich w
+      kolorze zielonym, a większą w czerwonym. W przypadku podania liczb jednakowych obie należy wyświetlić w kolorze niebieskim.  </h1>
+    <label for="liczba_a">Podaj liczbę a</label> <input type="number" id="liczba_a">
+    <label for="liczba_b">Podaj liczbę b</label> <input type="number" id="liczba_b">
+    <button>Pokaż</button>
+    <p id="wynik">...</p>
+    <script>
+      const liczba_a = document.querySelector('#liczba_a');
+      const liczba_b = document.querySelector('#liczba_b');
+      const wynik = document.querySelector('#wynik');
+      const btn = document.querySelector('button');
+      btn.addEventListener('click', function() {
+        let a = parseInt(liczba.value);
+        let b = parseInt(liczba.value);
+        if (a<b)
+        wynik.innerHTML = `${liczba_a}`;
+        })
+    </script>
+  </header>
+</section>
+<script>
+
+</script>
+</body>
+</html>
